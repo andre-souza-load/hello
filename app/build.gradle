@@ -20,11 +20,11 @@ android {
     productFlavors{
         beta{
             applicationId "com.loadinteractive.hello.beta"
-            buildConfigField("String","phrase","beta test")
+            buildConfigField('String','phrase','"beta test"')
         }
         alpha{
             applicationId "com.loadinteractive.hello.alpha"
-            buildConfigField("String","phrase","alpha test")
+            buildConfigField('String','phrase','"alpha test"')
         }
     }
 }
