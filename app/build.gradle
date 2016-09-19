@@ -18,11 +18,13 @@ android {
         }
     }
     productFlavors{
-        alpha{
-            applicationId "com.loadinteractive.hello.alpha"
-        }
         beta{
             applicationId "com.loadinteractive.hello.beta"
+            buildConfigField("String","phrase","beta test")
+        }
+        alpha{
+            applicationId "com.loadinteractive.hello.alpha"
+            buildConfigField("String","phrase","alpha test")
         }
     }
 }
