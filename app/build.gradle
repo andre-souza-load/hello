@@ -17,6 +17,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors{
+        alpha{
+            applicationId "com.loadinteractive.hello.alpha"
+        }
+        beta{
+            applicationId "com.loadinteractive.hello.beta"
+        }
+    }
 }
 
 dependencies {
